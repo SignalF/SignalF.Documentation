@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'SignalF'
+copyright = '2024, Olaf Meyer, scotec Software Solutions AB'
+author = 'Olaf Meyer'
 
 release = '0.1'
 version = '0.1.0'
