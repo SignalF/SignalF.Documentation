@@ -10,6 +10,7 @@ release = '0.1'
 version = '0.1.0'
 
 # -- General configuration
+master_doc = "contents"
 
 extensions = [
     'sphinx.ext.duration',
