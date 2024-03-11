@@ -12,6 +12,7 @@ how to :ref:`installation` the project.
 
    This project is under active development.
    The documentation has not yet been finalised. If you think that something is missing or incomplete, please contact me at the following e-mail address:
+
    olaf.meyer@scotec-software.com
 
 Contents
