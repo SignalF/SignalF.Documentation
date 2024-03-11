@@ -1,4 +1,4 @@
 .. toctree::
 
    usage
-   api
+   archtecture overview
