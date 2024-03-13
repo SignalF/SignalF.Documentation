@@ -37,8 +37,9 @@ html_logo = 'logo.png'
 html_static_path = ['_static']
 
 html_css_files = [
-    'css/custom.css',
+    'css/custom.css'
 ]
+
 html_theme_options = {
     'logo_only': True,
     'display_version': True,
