@@ -9,7 +9,6 @@ Welcome to the SignalF documentation!
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: Architectural overview
 
 
