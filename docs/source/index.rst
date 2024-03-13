@@ -3,13 +3,14 @@ Welcome to the SignalF documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Getting started
    :hidden:
+   :caption: Getting started
+   
    /getting-started
 
 .. toctree::
-   :hidden:
    :maxdepth: 2
+   :hidden:
    :caption: Architectural overview
 
    /getting-started
