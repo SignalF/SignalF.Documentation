@@ -5,7 +5,7 @@ Welcome to the SignalF documentation!
    :maxdepth: 2
    :caption: Getting started
 
-   archtecture overview
+   /getting-started
 
 .. toctree::
    :maxdepth: 2
