@@ -1,4 +1,0 @@
-.. toctree::
-
-   usage
-   archtecture overview
