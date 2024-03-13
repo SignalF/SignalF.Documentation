@@ -3,7 +3,6 @@ Welcome to the SignalF documentation!
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: Getting started
 
    archtecture overview
@@ -11,7 +10,7 @@ Welcome to the SignalF documentation!
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Archtectural overview
+   :caption: Architectural overview
 
 
 
