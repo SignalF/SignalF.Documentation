@@ -1,6 +1,6 @@
-Architectural overview
+Architecture overview
 ============================
 
 .. image:: architecture.png
-  :width: 400
+  :width: 600
   :alt: Architecture
