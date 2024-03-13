@@ -6,14 +6,14 @@ Welcome to the SignalF documentation!
    :hidden:
    :caption: Getting started
 
-   /getting-started
+   /getting-started/getting-started
 
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: Architecture
 
-   /architectural-overview
+   /architecture/overview
 
 
 
