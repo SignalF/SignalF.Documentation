@@ -26,6 +26,6 @@ how to :ref:`installation` the project.
 .. note::
 
    | This project is under active development.
-     The documentation has not yet been finalised. If you think that something is missing or incomplete, please contact me at the following e-mail addres: 
+     The documentation has not yet been finalised. If you need more information about SignalF or if you need support in using it, please contact me at the following e-mail addres: 
    | signalf@scotec-software.com
 
