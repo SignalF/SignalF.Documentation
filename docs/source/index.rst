@@ -23,6 +23,6 @@ Welcome to the SignalF documentation!
 .. note::
 
    | This project is under active development.
-     The documentation has not yet been finalised. If you need more information about SignalF or if you need support in using it, please contact me at the following e-mail addres: 
+     The documentation has not yet been finalised. If you need more information about SignalF or if you need support in using it, please contact me at the following email address: 
    | signalf@scotec-software.com
 
