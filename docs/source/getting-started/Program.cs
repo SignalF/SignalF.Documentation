@@ -9,7 +9,6 @@ public class Program
 {
     public static async Task Main(string[] args)
     {
-
         var hostBuilder = Host.CreateDefaultBuilder(args)
             .UseSignalFController()
             .ConfigureServices(services =>
@@ -18,7 +17,6 @@ public class Program
             });
 
         var host = hostBuilder.Build();
-
         await host.RunAsync();
     }
 }
