@@ -1,7 +1,4 @@
-﻿using System.Runtime.Versioning;
-using SignalF.Controller;
-using SignalF.Controller.Configuration;
-using SignalF.Extensions.Configuration;
+using System.Runtime.Versioning;
 using SignalF.Extensions.Controller;
 
 namespace TestController;
