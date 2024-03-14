@@ -16,7 +16,7 @@ Usage
 -----
 
 .. literalinclude:: Program.cs
-  :language: C#
+  :language: c#
 
 
 
