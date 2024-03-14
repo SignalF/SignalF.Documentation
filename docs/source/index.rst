@@ -27,7 +27,8 @@ Welcome to the SignalF documentation!
    | signalf@scotec-software.com
 
 
-``SignalF`` is licensed under the :choosealicense:`MIT`
+
+**SignalF** is licensed under the :choosealicense:`MIT`
 
 .. license-info:: MIT
 
