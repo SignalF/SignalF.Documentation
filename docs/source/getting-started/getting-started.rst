@@ -3,4 +3,4 @@ Getting started with SignalF
 
 Prerequisites
 -------------
-
+SignalF is based on .NET 8 and .NET Standard 2.1. To compile SignalF you need Visual Studio 2022 (version 17.8.0 or newer). If you are using a different development environment, you must install the (.NET 8 SDK)[https://dotnet.microsoft.com/en-us/download/dotnet/8.0].
