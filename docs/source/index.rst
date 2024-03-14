@@ -26,3 +26,10 @@ Welcome to the SignalF documentation!
      The documentation has not yet been finalised. If you need more information about SignalF or if you need support in using it, please contact me at the following email address: 
    | signalf@scotec-software.com
 
+
+``SignalF`` is licensed under the :choosealicense:`MIT`
+
+.. license-info:: MIT
+
+.. license::
+    :py: sphinx-toolbox
