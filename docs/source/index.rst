@@ -26,4 +26,6 @@ SignalF is a soft real-time system. The sensor data is read in, the control algo
    | signalf@scotec-software.com
 
 
+Licence
+-------
 SignalF is licensed under the MIT licence.
