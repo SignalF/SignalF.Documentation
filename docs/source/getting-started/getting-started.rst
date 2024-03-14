@@ -8,4 +8,5 @@ SignalF is based on .NET 8 and .NET Standard 2.1. To compile SignalF you need Vi
 
 
 .. |dotnet_sdk| raw:: html
+
    <a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0" target="_blank">.NET 8 SDK</a>
