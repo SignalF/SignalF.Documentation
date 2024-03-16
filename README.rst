@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+Documentation for SignalR
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub repository contains the SignalF documentation
 
-Read the tutorial here:
+Read the documentation here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://readthedocs.org/projects/signalfdocumentation/
