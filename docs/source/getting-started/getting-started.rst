@@ -12,6 +12,8 @@ Create a new project
 Install SignalF
 ---------------
 
+Open the file ``Program.cs`` and enter the following code.
+
 Usage
 -----
 
