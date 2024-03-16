@@ -1,7 +1,7 @@
 Documentation for SignalR
 =======================================
 
-This GitHub repository contains the SignalF documentation
+This GitHub repository contains the SignalF documentation.
 
 Read the documentation here:
 
