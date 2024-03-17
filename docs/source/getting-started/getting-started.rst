@@ -7,7 +7,10 @@ SignalF is based on .NET 8 and .NET Standard 2.1. To compile SignalF you need Vi
 
 Create a new project
 --------------------
-
+- Open Visual Studio.
+- Click on New project
+- Select Console app with the tag C# and click Next
+Enter SignalFStarted as the name and then click Create.
 
 Install SignalF
 ---------------
