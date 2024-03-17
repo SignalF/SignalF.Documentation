@@ -15,15 +15,25 @@ Create a new project
 Install SignalF
 ---------------
 
-Usage
------
+Execute the following command in the Package Manager Console to install SignalF,
 
+.. code-block:: powershell
+
+Install-Package SignalF.Extensions.Controller
+
+Create the code
+---------------
 
 Open the file ``Program.cs`` and enter the following code.
 
 .. literalinclude:: Program.cs
   :language: c#
 
+
+Run the app
+-----------
+
+Click 
 
 
 .. |dotnet_sdk| raw:: html
