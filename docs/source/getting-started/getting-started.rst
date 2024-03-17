@@ -34,7 +34,7 @@ Open the file ``Program.cs`` and enter the following code.
 Run the app
 -----------
 
-Click 
+Click **Debug > Start Without Debugging** in the menu to start the app.
 
 
 .. |dotnet_sdk| raw:: html
