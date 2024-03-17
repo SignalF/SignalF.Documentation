@@ -37,6 +37,7 @@ Run the app
 Click **Debug > Start Without Debugging** in the menu to start the app.
 
 You should now see the following text in the console window:
+
 .. code-block:: output
    
    Default process is running ........
