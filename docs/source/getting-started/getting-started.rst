@@ -10,7 +10,7 @@ Create a new project
 - Open Visual Studio.
 - Click on New project
 - Select Console app with the tag C# and click Next
-Enter SignalFStarted as the name and then click Create.
+- Enter SignalFStarted as the name and then click Create.
 
 Install SignalF
 ---------------
