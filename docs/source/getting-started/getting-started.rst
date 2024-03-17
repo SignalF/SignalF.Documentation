@@ -42,6 +42,7 @@ You should now see the following text in the console window:
    
    Default process is running ........
 
+SignalF is now up and running. Visit the tutorial to learn how to use devices, tasks, data output and control processes.
 
 .. |dotnet_sdk| raw:: html
 
