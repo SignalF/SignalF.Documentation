@@ -18,6 +18,7 @@ Install SignalF
 Execute the following command in the Package Manager Console to install SignalF.
 
 .. code-block:: powershell
+
 Install-Package SignalF.Extensions.Controller
 
 
