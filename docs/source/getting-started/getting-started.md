@@ -28,7 +28,8 @@ Open the file `Program.cs` and enter the following code.
 
 ```{literalinclude} Program.cs
 ---
-lang: c#
+language: csharp
+linenos:
 ---
 ```
 
