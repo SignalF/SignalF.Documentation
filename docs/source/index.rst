@@ -20,8 +20,8 @@ Welcome to the SignalF documentation!
    :hidden:
    :caption: Tutorial
 
-   /tutorial/part1
-   /tutorial/part2
+   /tutorial/tutorial
+   /tutorial/create-app/create-app
    /tutorial/part3
    /tutorial/part4
 
