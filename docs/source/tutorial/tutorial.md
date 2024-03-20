@@ -11,10 +11,14 @@ You will learn how to integrate devices and data output components into SignalF.
 
 First create a new project for a .NET 8 console application.
 
-
-
 :::{hint}
-Further information on how to create a SignalF application can be found in the chapter [Getting started with SignalF](/getting-started/getting-started.md)
+Further information on how to create a SignalF application can be found in the chapter [Getting started with SignalF](/getting-started/getting-started.md).
 :::
 
+For the application, we first need to install two SignalF extensions. To do this, execute the following two commands in the Package Manager Console.
+
+```powershell
+Install-Package SignalF.Extensions.Controller
+Install-Package SignalF.Extensions.Configuration
+```
 
