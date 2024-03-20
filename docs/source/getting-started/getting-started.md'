@@ -23,7 +23,7 @@ Install-Package SignalF.Extensions.Controller
 
 ## Create the code
 
-Open the file ``Program.cs`` and enter the following code.
+Open the file `Program.cs` and enter the following code.
 
 ```c#{literalinclude} Program.cs
 ```
