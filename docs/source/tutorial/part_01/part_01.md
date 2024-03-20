@@ -15,18 +15,29 @@ First create a new project for a .NET 8 console application.
 Further information on how to create a SignalF application can be found in the chapter [Getting started with SignalF](/getting-started/getting-started.md).
 :::
 
-For the application, we first need to install two SignalF extensions. To do this, execute the following two commands in the Package Manager Console.
 
-```powershell
-Install-Package SignalF.Extensions.Controller
-Install-Package SignalF.Extensions.Configuration
-```
-
-Open the file `Program.cs` and add the following code.
+Open the file `Program.cs` after you have created the project. Then enter the following code.
 
 ```{literalinclude} Program.cs
 ---
 language: csharp
-lines: 1-16,19-20,29-
+lines: 1,7-16,19-20,29-
+---
+```
+
+To add the SignalF functionality, we need the Nuget package `SignalF.Extensions.Controller`.
+Execute the following command in the Package Manager Console to install the Nuget package.
+
+```powershell
+Install-Package SignalF.Extensions.Controller
+```
+
+Now add the following lines.
+
+```{literalinclude} Program.cs
+---
+language: csharp
+lines: 16,17,19-21,29-
+emphasize-lines: 17,21
 ---
 ```
