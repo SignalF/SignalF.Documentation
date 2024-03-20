@@ -25,6 +25,14 @@ Welcome to the SignalF documentation!
    /tutorial/part3
    /tutorial/part4
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Credits
+
+   /credits/credits
+
+
 
 SignalF is a configurable, modular .NET measurement and control software specially designed for operation on single-board computers such as the Raspberry Pi or the Orange Pi. In industry, single-board computers are primarily used in measurement and control technology (MCR), where they often replace the much more expensive programmable logic controllers (PLCs).
 
