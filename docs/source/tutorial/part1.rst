@@ -7,5 +7,5 @@ In this tutorial we will develop a simple temperature monitoring system with Sig
 .. image:: RaspberryTemperatureControl.png
    :alt: Raspberry Temperature Control
 
-
+You will learn how to integrate devices and data output components into SignalF. We will also create a simple logic to monitor the temperature. In the last step, we will connect the individual components using configuration.
 
