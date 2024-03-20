@@ -1,5 +1,17 @@
 # Welcome to the SignalF documentation!
 
+```{toctree}
+---
+caption: Getting started
+maxdepth: 2
+hidden:
+---
+/getting-started/getting-started
+```
+
+
+
+
 .. toctree::
    :maxdepth: 2
    :hidden:
