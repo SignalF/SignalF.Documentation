@@ -21,7 +21,7 @@ Open the file `Program.cs` after you have created the project. Then enter the fo
 ```{literalinclude} Program.cs
 ---
 language: csharp
-lines: 1,7-16,19-20,29-
+lines: 1,8-16,19-20,29-
 ---
 ```
 
@@ -38,6 +38,6 @@ Now add the following lines.
 ---
 language: csharp
 lines: 16,17,19-21,29-
-emphasize-lines: 17,21
+emphasize-lines: 2,5
 ---
 ```
