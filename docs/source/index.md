@@ -11,23 +11,23 @@ hidden:
 
 ```{toctree}
 ---
+caption: Tutorial
+maxdepth: 2
+hidden:
+---
+/tutorial/part_01/part_01
+/tutorial/create-app/create-app
+/tutorial/part3
+/tutorial/part4
+```
+
+```{toctree}
+---
 caption: Architecture
 maxdepth: 2
 hidden:
 ---
 /architecture/overview
-```
-
-```{toctree}
----
-caption: Tutorial
-maxdepth: 2
-hidden:
----
-/tutorial/tutorial
-/tutorial/create-app/create-app
-/tutorial/part3
-/tutorial/part4
 ```
 
 ```{toctree}

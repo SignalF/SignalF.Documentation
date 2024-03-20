@@ -18,7 +18,7 @@ SignalF is based on .NET 8 and .NET Standard 2.1. To compile SignalF you need Vi
 Execute the following command in the Package Manager Console to install SignalF.
 
 ```powershell
-Install-Package SignalF.Extensions.Controller
+Install-Package -IncludePrerelease SignalF.Extensions.Controller
 ```
 
 

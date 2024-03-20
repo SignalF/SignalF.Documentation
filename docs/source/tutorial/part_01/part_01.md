@@ -22,3 +22,11 @@ Install-Package SignalF.Extensions.Controller
 Install-Package SignalF.Extensions.Configuration
 ```
 
+Open the file `Program.cs` and add the following code.
+
+```{literalinclude} Program.cs
+---
+language: csharp
+lines: 1-16,19-20,29-
+---
+```
