@@ -44,6 +44,8 @@ emphasize-lines: 2,5
 
 `UseSignalFController()` adds the SignalF functionality to the application. With services.`AddSignalFControllerService()` we define the behaviour of the SignalF application. The SignalF Controller Service automatically loads the configuration at startup, initialises all services and starts measurement operation.
 
+## First run
+
 You can now compile and start the SignalF application. \
 Click **Debug > Start Without Debugging** in the menu to start the app. You should now see the following text in the console window:
 
