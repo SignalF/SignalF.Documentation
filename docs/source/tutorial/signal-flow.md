@@ -41,12 +41,12 @@ Die Sekundengenaue Überwachung der CPU-Temperatur ist für unser Monitoring-Sys
 ---
 language: csharp
 lines: 1-9,12-17,20-23,31-
-emphasize-lines: 9,16
+emphasize-lines: 9,15
 ---
 ```
 
-Im nächsten Schritt fügen wir eine neue Extension-Methode zum Zuordnen des Devices zur Task hinzu.
-Unsere erste Zuweisung 
+Im nächsten Schritt fügen wir eine neue Extension-Methode zum Zuordnen des Device zur Task hinzu.
+Hier weisen wir der 1s-Task das Device mit dem Namen "CPU" zu.
 
 ```{literalinclude} assets/code/TaskExtensions.cs
 ---
