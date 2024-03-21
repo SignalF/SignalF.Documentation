@@ -32,4 +32,25 @@ Within a read task, signal processors can read signals from the signal hub.
 The exit task is called up once when measurement mode is ended. No other tasks are executed after the exit task.
 
 ## Create a task
-Um Für das CPU-Temperatur-Gerät ben
+Damit wir in unserem Monitoring-System die CPU-Temperatur überwachen können, benötigen wir eine Write-Task, in welcher die Device-Implementierung die Temperatur in den Signal-Hub schreiben kann.
+Für die Task-Konfiguration erstellen wir zwei neue Extension-Methods. Eine zur Definition der Tasks und eine zweite für das Mapping der Signalprozessoren zu den Tasks.
+
+Die Sekundengenaue Überwachung der CPU-Temperatur ist für unser Monitoring-System ausreichend. Daher definieren wir eine Write-Task mit einem Raster von 1 Sekunde.  
+
+```{literalinclude} assets/code/TaskExtensions.cs
+---
+language: csharp
+lines: 1-9,12-17,20-23,30-
+emphasize-lines: 9,14
+---
+```
+
+Im nächsten Schritt fügen wir ebenfalls eine Extension-Methode zum Zuordnen des Devices zur Task hinzu.
+
+```{literalinclude} assets/code/TaskExtensions.cs
+---
+language: csharp
+lines: 25-30
+emphasize-lines: 3
+---
+```
