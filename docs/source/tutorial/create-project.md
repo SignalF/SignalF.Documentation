@@ -36,7 +36,7 @@ Install-Package SignalF.Extensions.Controller
 
 Now add the highlighted lines.
 
-```{literalinclude} Program.cs
+```{literalinclude} assets/code/Program.cs
 ---
 language: csharp
 lines: 16,17,19-21,29-
