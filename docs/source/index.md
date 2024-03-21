@@ -48,6 +48,7 @@ SignalF is a soft real-time system. The sensor data is read in, the control algo
 This project is under active development.
 The documentation has not yet been finalised. If you would like to know more about SignalF or if you need support in using it, please contact me at the following email address: <br>
 signalf@scotec-software.com
+:::
 
 ## Source code
 
