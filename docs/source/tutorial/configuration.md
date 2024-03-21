@@ -11,6 +11,6 @@ Here is a short extract from the default configuration.
 ```{literalinclude} assets/code/DefaultConfiguration.xml
 ---
 language: xml
-lines: 1-
+lines: 1-6,28-40
 ---
 ```
