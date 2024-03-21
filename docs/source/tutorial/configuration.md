@@ -32,7 +32,7 @@ SignalF comes with a fluent interface for simple and intuitive configuration. \
 However, before we can use this interface, we must integrate it into the application. To do this, we have to install the corresponding Nuget package.
 
 ```powershell
-Install-Package SignalF.Extensions.Configution
+Install-Package SignalF.Extensions.Configuration
 ```
 
 ```{literalinclude} assets/code/Program.cs
