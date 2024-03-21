@@ -29,7 +29,7 @@ Using the data model makes it much easier to create the configuration, but deep 
 ## The fluent interface
 
 SignalF comes with a fluent interface for simple and intuitive configuration. \
-However, before we can use this interface, we must first integrate it into the application. To do this, we must first install the corresponding Nuget package.
+However, before we can use this interface, we must integrate it into the application. To do this, we have to install the corresponding Nuget package.
 
 ```powershell
 Install-Package SignalF.Extensions.Configution
@@ -43,8 +43,7 @@ emphasize-lines: 3
 ---
 ```
 
-Im nächsten Schritt erstellen wir die Klasse `SystemConfiguration`, welche das `ISystemConfiguration` interface implementiert.
-Diese Klasse wird später die gesamte Konfiguration des Systems enthalten.
+In the next step, we create the class `SystemConfiguration`, which implements the `ISystemConfiguration` interface. This class will later contain the entire configuration of the system.
 
 ```{literalinclude} assets/code/SystemConfiguration.cs
 ---
@@ -53,9 +52,9 @@ lines: 1-21,29-
 ---
 ```
 
-Damit die neue Konfiguraton von SignalF verwendet werden kann, müssen wir diese nun noch in der Anwendung registrieren.
+In order for the new configuration to be used, we need to register it in the application.
 
-Die Main() Methode sollte nun wie folgt aussehen:
+The Main() method should now look like this:
 
 ```{literalinclude} assets/code/Program.cs
 ---
