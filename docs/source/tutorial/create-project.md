@@ -1,4 +1,4 @@
-# Create a SignalF Application
+# SignalF application
 
 ## Introduction
 
