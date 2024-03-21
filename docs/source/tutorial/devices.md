@@ -20,3 +20,29 @@ cat /sys/class/thermal/thermal_zone*/type
 ```
 :::
 
+## CPU-Temperature
+SignalF.Devices contains a simple component for reading the current CPU temperature. Execute the following command to install the corresponding Nuget package.
+```powershell
+Install-Package -IncludePrerelease SignalF.Devices.CpuTemperature
+```
+
+To make the component available for SignalF, we now need to register it.
+
+```{literalinclude} assets/code/Program.cs
+---
+language: csharp
+lines: 19-25,29
+emphasize-lines: 7
+---
+```
+
+We could now add the configuration for the CPU temperature component directly to the `Configure()` method in the previously created `SystemConfiguration` class. For reasons of clarity, we create a new extension method for this and add the configuration there.
+
+```{literalinclude} assets/code/DeviceExtensions.cs
+---
+language: csharp
+lines: 1-21,29-
+emphasize-lines: 12
+---
+```
+
