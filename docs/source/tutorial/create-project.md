@@ -31,7 +31,7 @@ To add the SignalF functionality, we need the Nuget package `SignalF.Extensions.
 Execute the following command in the Package Manager Console to install the Nuget package.
 
 ```powershell
-Install-Package SignalF.Extensions.Controller
+Install-Package -IncludePrerelease SignalF.Extensions.Controller
 ```
 
 Now add the highlighted lines.

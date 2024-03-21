@@ -32,7 +32,7 @@ SignalF comes with a fluent interface for simple and intuitive configuration. \
 However, before we can use this interface, we must integrate it into the application. To do this, we have to install the corresponding Nuget package.
 
 ```powershell
-Install-Package SignalF.Extensions.Configuration
+Install-Package -IncludePrerelease SignalF.Extensions.Configuration
 ```
 
 We then tell the application that we want to use the fluent interface.
@@ -66,4 +66,4 @@ emphasize-lines: 9
 ---
 ```
 
-The next time the SignalF application is started, it no longer uses the default configuration, but a configuration generated at runtime - which is still empty.
+The next time the SignalF application is started, it no longer uses the default configuration, but a configuration generated at runtime - which is still empty.🙂
