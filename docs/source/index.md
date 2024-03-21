@@ -18,6 +18,7 @@ hidden:
 /tutorial/signalf-application
 /tutorial/configuration
 /tutorial/devices
+/tutorial/task-management
 ```
 
 ```{toctree}
