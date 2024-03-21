@@ -32,7 +32,7 @@ Execute the following command in the Package Manager Console to install the Nuge
 Install-Package SignalF.Extensions.Controller
 ```
 
-Now add the following lines.
+Now add the highlighted lines.
 
 ```{literalinclude} Program.cs
 ---
@@ -41,3 +41,14 @@ lines: 16,17,19-21,29-
 emphasize-lines: 2,5
 ---
 ```
+
+`UseSignalFController()` adds the SignalF functionality to the application. With services.`AddSignalFControllerService()` we define the behaviour of the SignalF application. The SignalF Controller Service automatically loads the configuration at startup, initialises all services and starts measurement operation.
+
+You can now compile and start the SignalF application. \
+Click **Debug > Start Without Debugging** in the menu to start the app. You should now see the following text in the console window:
+
+```text
+Default process is running ........
+```
+
+SignalF is now up and running. Press Ctrl-C to exit the application. 
