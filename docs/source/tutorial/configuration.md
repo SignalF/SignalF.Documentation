@@ -15,5 +15,13 @@ lines: 1-6,28-40
 ---
 ```
 
-Due to the size and high complexity of this file, manual creation of the configuration is very time-consuming and error-prone. I will therefore not go into the structure of this file in detail here.
+Due to the size and high complexity of this file, manual creation of the configuration is very time-consuming and error-prone. I will therefore not go into the details here.
 
+
+## The datamodel
+
+SignalF uses a comprehensive [data model](https://github.com/Signal-F/SignalF.Controller/tree/develop/Source/Datamodel){target="_blank"} generated from the configuration [schema files](https://github.com/Signal-F/SignalF.Controller/tree/develop/Schemas/Configuration){target="_blank"} to access the configuration file.
+
+Using the data model makes it much easier to create the configuration, but deep knowledge of the structure of the configuration is still required. One possible area of application would be, for example, the automated creation or customisation of configurations.
+
+## The fluent interface
