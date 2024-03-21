@@ -35,6 +35,8 @@ However, before we can use this interface, we must integrate it into the applica
 Install-Package SignalF.Extensions.Configuration
 ```
 
+We then tell the application that we want to use the fluent interface.
+
 ```{literalinclude} assets/code/Program.cs
 ---
 language: csharp
