@@ -14,7 +14,6 @@ hidden:
 caption: Tutorial
 maxdepth: 2
 hidden:
-titlesonly:
 ---
 /tutorial/create-project
 /tutorial/configuration
