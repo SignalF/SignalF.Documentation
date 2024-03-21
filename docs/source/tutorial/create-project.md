@@ -1,4 +1,4 @@
-# CPU-Temperature
+# Create a SignalF Application
 
 ## Introduction
 

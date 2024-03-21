@@ -11,7 +11,7 @@ hidden:
 
 ```{toctree}
 ---
-caption: Tutorial
+caption: Tutorial - CPU-Temperature
 maxdepth: 2
 hidden:
 ---
