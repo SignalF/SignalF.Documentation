@@ -14,3 +14,6 @@ language: xml
 lines: 1-6,28-40
 ---
 ```
+
+Due to the size and high complexity of this file, manual creation of the configuration is very time-consuming and error-prone. I will therefore not go into the structure of this file in detail here.
+
