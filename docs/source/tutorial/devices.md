@@ -36,7 +36,7 @@ emphasize-lines: 7
 ---
 ```
 
-We could now add the configuration for the CPU temperature component directly to the `Configure()` method in the previously created `SystemConfiguration` class. For reasons of clarity, we create a new extension method for this and add the configuration there.
+We could now add the configuration for the CPU temperature component directly to the `Configure()` method in the previously created `SystemConfiguration` class. However, for reasons of clarity, we create a new extension method for this and add the configuration there.
 
 ```{literalinclude} assets/code/DeviceExtensions.cs
 ---
@@ -55,3 +55,11 @@ lines: 18-23,28-
 emphasize-lines: 6
 ---
 ```
+
+In the configuration, we can assign a name for the device and for the signal. In this case, we call the device 'CPU' and the signal 'Temperature'. The device name must be unique within the configuration. This means that only one device may ever be given this name. The signal names must also be unique. However, it is sufficient here if the signals within a device are unique./
+If signals outside a device are to be referenced, they are always addressed using a composite name. This name always follows the pattern `DEVICENAME.SIGNALNAME. In our case, this is `CPU.Temperature`.
+
+:::{tip}
+Ideally, the signal names within a configuration should also be unique. This makes it easier to track the signal flow in larger projects.
+:::
+
