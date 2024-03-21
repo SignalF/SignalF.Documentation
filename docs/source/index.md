@@ -15,10 +15,8 @@ caption: Tutorial
 maxdepth: 2
 hidden:
 ---
-/tutorial/part_01/part_01
-/tutorial/create-app/create-app
-/tutorial/part3
-/tutorial/part4
+/tutorial/create-project
+/tutorial/configuration
 ```
 
 ```{toctree}
