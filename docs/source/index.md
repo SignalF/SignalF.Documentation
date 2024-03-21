@@ -15,7 +15,7 @@ caption: Tutorial - CPU-Temperature
 maxdepth: 2
 hidden:
 ---
-/tutorial/create-project
+/tutorial/signalf-application
 /tutorial/configuration
 ```
 
