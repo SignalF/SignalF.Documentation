@@ -1,4 +1,4 @@
-# Task management
+# Signal flow
 
 In the `Devices` chapter of this tutorial, we added a CPU temperature device to our SignalF application, but the temperature signals are not yet read in by SignalF. In this chapter I would like to show how signals are read or written by SignalF. 
 
