@@ -46,3 +46,12 @@ emphasize-lines: 12
 ---
 ```
 
+We now call the extension method we have just created in the `Configure()` method.
+
+```{literalinclude} assets/code/SystemConfiguration.cs
+---
+language: csharp
+lines: 18-23,28-
+emphasize-lines: 6
+---
+```
