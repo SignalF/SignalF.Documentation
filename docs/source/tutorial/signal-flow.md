@@ -30,3 +30,6 @@ Within a read task, signal processors can read signals from the signal hub.
 
 ### Exit task
 The exit task is called up once when measurement mode is ended. No other tasks are executed after the exit task.
+
+## Create a task
+Um Für das CPU-Temperatur-Gerät ben
