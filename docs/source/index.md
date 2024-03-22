@@ -3,7 +3,7 @@
 ```{toctree}
 ---
 caption: Getting started
-maxdepth: 2
+maxdepth: 1
 hidden:
 ---
 /getting-started/getting-started
@@ -12,7 +12,7 @@ hidden:
 ```{toctree}
 ---
 caption: Tutorial - CPU-Temperature
-maxdepth: 2
+maxdepth: 1
 hidden:
 ---
 /tutorial/signalf-application
@@ -24,7 +24,7 @@ hidden:
 ```{toctree}
 ---
 caption: Architecture
-maxdepth: 2
+maxdepth: 1
 hidden:
 ---
 /architecture/overview
@@ -33,7 +33,7 @@ hidden:
 ```{toctree}
 ---
 caption: Credits
-maxdepth: 2
+maxdepth: 1
 hidden:
 ---
 /credits/credits
