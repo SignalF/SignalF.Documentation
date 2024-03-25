@@ -19,6 +19,7 @@ hidden:
 /tutorial/configuration
 /tutorial/devices
 /tutorial/signal-flow
+/tutorial/calculators
 ```
 
 ```{toctree}
