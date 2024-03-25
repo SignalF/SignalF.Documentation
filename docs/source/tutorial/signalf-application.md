@@ -37,7 +37,6 @@ Install-Package -IncludePrerelease SignalF.Extensions.Controller
 Now add the highlighted lines.
 
 ```{literalinclude} assets/code/Program.cs
-:filename: Program.cs
 ---
 filename: Program.cs
 language: csharp
