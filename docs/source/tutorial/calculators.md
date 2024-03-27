@@ -6,5 +6,9 @@ The calculators are called up in special calculator tasks. A calculator task fir
 
 ## Temperature monitoring
 
+
 ## Configuration
+
+
+## Connections
 
