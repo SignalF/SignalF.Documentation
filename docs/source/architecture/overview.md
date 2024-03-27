@@ -1,4 +1,4 @@
-#Architecture overview
+# Architecture overview
 
 The following image shows the main components of SignalF.
 
