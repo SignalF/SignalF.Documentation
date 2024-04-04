@@ -31,7 +31,7 @@ language: csharp
 lines: 13-17
 ---
 ```
-In the next step, we overwrite the `OnConfigure` method as follows:
+In the next step, we overwrite the `OnConfigure()` method as follows:
 
 ```{literalinclude} assets/code/TemperatureMonitoring.cs
 ---
