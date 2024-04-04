@@ -31,7 +31,7 @@ To make the component available for SignalF, we now need to register it.
 ```{literalinclude} assets/code/Program.cs
 ---
 language: csharp
-lines: 19-25,29
+lines: 20-26,33
 emphasize-lines: 7
 ---
 ```
