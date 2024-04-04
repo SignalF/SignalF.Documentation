@@ -23,7 +23,7 @@ Open the file `Program.cs` after you have created the project. Then enter the fo
 ```{literalinclude} assets/code/Program.cs
 ---
 language: csharp
-lines: 1,8-16,19-20,29-
+lines: 1,9-17,20-21,33-
 ---
 ```
 
@@ -39,7 +39,7 @@ Now add the highlighted lines.
 ```{literalinclude} assets/code/Program.cs
 ---
 language: csharp
-lines: 16,17,19-21,29-
+lines: 17,18,20-22,30-
 emphasize-lines: 2,5
 ---
 ```
