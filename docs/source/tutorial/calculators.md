@@ -16,12 +16,42 @@ Create a new class `TemperatureMonitoring`.
 ```{literalinclude} assets/code/TemperatureMonitoring.cs
 ---
 language: csharp
-lines: 1-9,19-22,88-
+lines: 1-9,19-22,89
 ---
 ```
 
+All input and output signals relevant for the calculator are available via the properties 'SignalSinks' (inputs) and 'SignalSources' (outputs).
+The individual signals are accessed via an index, which must first be determined in the configuration phase.
 
-## Configuration
+To save the indices, we first add the following fields:
+
+```{literalinclude} assets/code/TemperatureMonitoring.cs
+---
+language: csharp
+lines: 13-17
+---
+```
+In the next step, we overwrite the `OnConfigure` method as follows:
+
+```{literalinclude} assets/code/TemperatureMonitoring.cs
+---
+language: csharp
+lines: 36-88
+---
+```
+
+The indices of the individual signals currently correspond to their position in the configuration. However, this is not guaranteed and may change in future versions of SignalF. To determine the correct index, we therefore call the `GetSignalIndex()` method for each signal and then assign the returned index to the corresponding fields.
+
+To finalise the temperature monitoring, we define the desired limit values and overwrite the `OnCalculate()` method.
+
+```{literalinclude} assets/code/TemperatureMonitoring.cs
+---
+language: csharp
+lines: 10-12,24-34
+---
+```
+
+## Configuration 
 
 
 ## Connections
