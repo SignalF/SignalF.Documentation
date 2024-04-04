@@ -51,7 +51,7 @@ We now call the extension method we have just created in the `Configure()` metho
 ```{literalinclude} assets/code/SystemConfiguration.cs
 ---
 language: csharp
-lines: 18-23,30-
+lines: 20-25,32-
 emphasize-lines: 6
 ---
 ```
