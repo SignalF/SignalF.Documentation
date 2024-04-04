@@ -40,7 +40,7 @@ Now add the highlighted lines.
 ---
 language: csharp
 lines: 17,18,20-22,33-
-emphasize-lines: 3,6
+emphasize-lines: 2,5
 ---
 ```
 
