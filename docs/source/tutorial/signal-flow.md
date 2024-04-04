@@ -51,7 +51,7 @@ Here we assign the device with the name "CPU" to the 1s task.
 ```{literalinclude} assets/code/TaskExtensions.cs
 ---
 language: csharp
-lines: 25-30
+lines: 25-27,29-31
 emphasize-lines: 3
 ---
 ```
