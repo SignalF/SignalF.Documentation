@@ -39,8 +39,8 @@ Now add the highlighted lines.
 ```{literalinclude} assets/code/Program.cs
 ---
 language: csharp
-lines: 17,18,20-22,30-
-emphasize-lines: 2,5
+lines: 17,18,20-22,33-
+emphasize-lines: 3,6
 ---
 ```
 
