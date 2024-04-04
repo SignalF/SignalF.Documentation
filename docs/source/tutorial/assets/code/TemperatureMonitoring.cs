@@ -10,11 +10,11 @@ public class TemperatureMonitoring : Calculator<ICalculatorConfiguration>
     private const double WarnLevel = 70.0;
     private const double CriticalLevel = 100.0;
 
-    private int _indexTemperature;
-    private int _indexOk;
-    private int _indexWarning;
-    private int _indexAlarm;
-    private int _indexFan;
+    private int _indexTemperature = -1;
+    private int _indexOk = -1;
+    private int _indexWarning = -1;
+    private int _indexAlarm = -1;
+    private int _indexFan = -1;
 
     public TemperatureMonitoring(ISignalHub signalHub, ILogger<TemperatureMonitoring> logger)
         : base(signalHub, logger)
