@@ -40,7 +40,7 @@ We then tell the application that we want to use the fluent interface.
 ```{literalinclude} assets/code/Program.cs
 ---
 language: csharp
-lines: 16-19
+lines: 17-20
 emphasize-lines: 3
 ---
 ```
@@ -50,7 +50,7 @@ In the next step, we create the class `SystemConfiguration`, which implements th
 ```{literalinclude} assets/code/SystemConfiguration.cs
 ---
 language: csharp
-lines: 1-21,29-
+lines: 1-22,33-
 ---
 ```
 
@@ -61,7 +61,7 @@ The Main() method should now look like this:
 ```{literalinclude} assets/code/Program.cs
 ---
 language: csharp
-lines: 14-22,29-
+lines: 15-23,33-
 emphasize-lines: 9
 ---
 ```
