@@ -53,7 +53,7 @@ html_theme = 'sphinx_rtd_theme'
 html_logo = 'logo.png'
 
 html_static_path = ['_static']
-
+html_extra_path = ['template.html']
 html_css_files = [
     'css/custom.css'
 ]
