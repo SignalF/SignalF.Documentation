@@ -40,8 +40,8 @@ Monitoring the CPU temperature to the second is sufficient for our monitoring sy
 ```{literalinclude} assets/code/TaskExtensions.cs
 ---
 language: csharp
-lines: 1-9,12-17,20-23,32-
-emphasize-lines: 9,15
+lines: 1-24,33-
+emphasize-lines: 9,17
 ---
 ```
 
