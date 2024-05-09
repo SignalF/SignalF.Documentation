@@ -40,10 +40,11 @@ Monitoring the CPU temperature to the second is sufficient for our monitoring sy
 ```{literalinclude} assets/code/TaskExtensions.cs
 ---
 language: csharp
-lines: 1-24,33-
+lines: 1-23,33-
 emphasize-lines: 9,17
 ---
 ```
+In the further course of this tutorial, we will need a reading and a calculation task, which we will also add here now.
 
 In the next step, we add a new extension method to assign the device to the task.
 Here we assign the device with the name "CPU" to the 1s task.
@@ -51,7 +52,7 @@ Here we assign the device with the name "CPU" to the 1s task.
 ```{literalinclude} assets/code/TaskExtensions.cs
 ---
 language: csharp
-lines: 25-27,29-31
+lines: 25-27,30-32
 emphasize-lines: 3
 ---
 ```
