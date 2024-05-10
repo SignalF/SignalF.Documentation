@@ -38,6 +38,13 @@ myst_enable_extensions = [
     "tasklist",
 ]
 
+myst_html_meta = {
+    "description lang=en": "metadata description",
+    "description lang=fr": "description des métadonnées",
+    "keywords": "Sphinx, MyST",
+    "property=og:locale":  "en_US"
+}
+
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
@@ -53,6 +60,7 @@ html_meta = {
     'author': 'Olaf Meyer',
     # Add other meta tags as needed
 }
+
 html_theme = 'sphinx_rtd_theme'
 
 html_logo = 'logo.png'
