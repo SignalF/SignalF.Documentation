@@ -1,6 +1,9 @@
+
 ---
-title: SignalF documentation
-google-site-verification: e-ioq-2FsJgbd_kEQGUuEZgYhnEb9Or3RZl6KjZl5hU
+myst:
+  html_meta:
+    "title": "SignalF documentation"
+    "google-site-verification": "e-ioq-2FsJgbd_kEQGUuEZgYhnEb9Or3RZl6KjZl5hU"
 ---
 
 # Welcome to the SignalF documentation!
