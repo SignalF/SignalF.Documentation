@@ -41,7 +41,7 @@ We could now add the configuration for the CPU temperature component directly to
 ```{literalinclude} assets/code/DeviceExtensions.cs
 ---
 language: csharp
-lines: 1-21,29-
+lines: 1-17,113
 emphasize-lines: 12
 ---
 ```

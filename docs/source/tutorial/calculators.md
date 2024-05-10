@@ -51,8 +51,3 @@ lines: 10-12,24-34
 ---
 ```
 
-## Configuration 
-
-
-## Connections
-
