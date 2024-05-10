@@ -1,3 +1,8 @@
+
+.. meta::
+   :description: SignalF documentation
+   :author: Olaf Meyer
+
 # Welcome to the SignalF documentation!
 
 ```{toctree}
