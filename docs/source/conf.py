@@ -39,10 +39,7 @@ myst_enable_extensions = [
 ]
 
 myst_html_meta = {
-    "description lang=en": "metadata description",
-    "description lang=fr": "description des métadonnées",
-    "keywords": "Sphinx, MyST",
-    "property=og:locale":  "en_US"
+    "google-site-verification": "e-ioq-2FsJgbd_kEQGUuEZgYhnEb9Or3RZl6KjZl5hU"
 }
 
 intersphinx_mapping = {
