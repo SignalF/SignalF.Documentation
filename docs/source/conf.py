@@ -48,12 +48,17 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
+html_meta = {
+    'google-site-verification': 'e-ioq-2FsJgbd_kEQGUuEZgYhnEb9Or3RZl6KjZl5hU',
+    'author': 'Olaf Meyer',
+    # Add other meta tags as needed
+}
 html_theme = 'sphinx_rtd_theme'
 
 html_logo = 'logo.png'
 
 html_static_path = ['_static']
-html_extra_path = ['template.html']
+
 html_css_files = [
     'css/custom.css'
 ]
