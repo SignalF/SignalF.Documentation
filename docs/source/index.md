@@ -1,9 +1,9 @@
+---
+title: SignalF documentation
+google-site-verification: e-ioq-2FsJgbd_kEQGUuEZgYhnEb9Or3RZl6KjZl5hU
+---
 
 # Welcome to the SignalF documentation!
-
-.. meta::
-   :description: SignalF documentation
-   :author: Olaf Meyer
 
 ```{toctree}
 ---
