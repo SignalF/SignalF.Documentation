@@ -52,7 +52,7 @@ lines: 10-12,24-34
 ```
 
 ## Configuration
-Nachdem wir die Temperatur-Monitoring-Komponente erstellt habe, müssen wir diese noch in unserer Anwendung registrieren sowie die Ein- und Ausgänge konfigurieren. Hierzu erstellen wir zunächst die Extension-Method zum Registrieren der Komponente.
+Once we have created the temperature monitoring component, we still need to register it in our application and configure the inputs and outputs. To do this, we first create the extension method for registering the component.
 
 ```{literalinclude} assets/code/MonitoringExtensions.cs
 ---
