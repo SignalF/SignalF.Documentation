@@ -1,13 +1,12 @@
 # GPIO Access
 
-Im vorangegangenen Kapitel habe wir eine Komponente zur Temperaturüberwachung erstellt. In dieser werden in Abhängigkeit von der CPU-Temperatur die entsprechenden Ausgänge gesetzt.
+In the previous chapter, we created a component for temperature monitoring. In this component, the corresponding outputs are set depending on the CPU temperature.
 
-Im weiteren Verlauf dieses Kapitels soll der Zustand der Temperaturüberwachung an die GPIO-Ports des Raspberry Pi weitergeleitet werden.
+In the rest of this chapter, I would like to explain how the temperature monitoring status is forwarded to the GPIO ports of the Raspberry Pi.
 
 ![GPIO Access](assets/images/Gpio.png)
 
 ## Gpio Pin Access
-Der SignalF Controller enthält eine hardwareunabhängige Abstraktion der GPIO Ports.
 
 ## Channels and channel groups
 
