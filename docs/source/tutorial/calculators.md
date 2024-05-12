@@ -51,3 +51,12 @@ lines: 10-12,24-34
 ---
 ```
 
+## Configuration
+Nachdem wir die Temperatur-Monitoring-Komponente erstellt habe, müssen wir diese noch in unserer Anwendung registrieren sowie die Ein- und Ausgänge konfigurieren. Hierzu erstellen wir zunächst die Extension-Method zum Registrieren der Komponente.
+
+```{literalinclude} assets/code/MonitoringExtensions.cs
+---
+language: csharp
+lines: 1-13,48
+---
+```
