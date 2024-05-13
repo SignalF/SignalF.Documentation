@@ -71,7 +71,7 @@ emphasize-lines: 10
 ---
 ```
 
-### Signal-Provider-Definition
+### Signal provider definition
 In order to configure the monitoring component, you must first create a signal provider definition for the monitoring component. This definition is a description of the implementation that can be read by the SignalF controller and corresponds roughly to a class in object-orientated programming. Among other things, the definition contains a list of the signal sources and sinks.
 
 ```{literalinclude} assets/code/MonitoringExtensions.cs
@@ -81,4 +81,4 @@ lines: 21-33
 ---
 ```
 
-### Signal-Provider-Configuration
+### Signal provider configuration
