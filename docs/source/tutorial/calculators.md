@@ -52,11 +52,20 @@ lines: 10-12,24-34
 ```
 
 ## Configuration
-Once we have created the temperature monitoring component, we still need to register it in our application and configure the inputs and outputs. To do this, we first create the extension method for registering the component.
+Once we have created the temperature monitoring component, we still need to register it in our application and configure the inputs and outputs. To do this, first create the extension method for registering the component.
 
 ```{literalinclude} assets/code/MonitoringExtensions.cs
 ---
 language: csharp
 lines: 1-13,48
+---
+```
+
+In order to configure the monitoring component, you must first create a signal provider definition for the monitoring component. This definition is a description of the implementation that can be read by the SignalF controller and corresponds roughly to a class in object-orientated programming. Among other things, the definition contains a list of the signal sources and sinks.
+
+```{literalinclude} assets/code/MonitoringExtensions.cs
+---
+language: csharp
+lines: 21-33
 ---
 ```
