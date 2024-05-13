@@ -61,6 +61,17 @@ lines: 1-13,48
 ---
 ```
 
+To make the component available for SignalF, we now need to register it.
+
+```{literalinclude} assets/code/Program.cs
+---
+language: csharp
+lines: 20-31,33
+emphasize-lines: 10
+---
+```
+
+### Signal-Provider-Definition
 In order to configure the monitoring component, you must first create a signal provider definition for the monitoring component. This definition is a description of the implementation that can be read by the SignalF controller and corresponds roughly to a class in object-orientated programming. Among other things, the definition contains a list of the signal sources and sinks.
 
 ```{literalinclude} assets/code/MonitoringExtensions.cs
@@ -69,3 +80,5 @@ language: csharp
 lines: 21-33
 ---
 ```
+
+### Signal-Provider-Configuration
