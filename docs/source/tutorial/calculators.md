@@ -61,12 +61,12 @@ lines: 1-13,48
 ---
 ```
 
-To make the component available for SignalF, we now need to register it.
+Now open the file `Program.cs` and add a call to the extension method.
 
 ```{literalinclude} assets/code/Program.cs
 ---
 language: csharp
-lines: 20-31,33
+lines: 20-29,33
 emphasize-lines: 10
 ---
 ```
