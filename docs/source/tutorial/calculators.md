@@ -82,9 +82,6 @@ lines: 21-33
 ```
 
 ### Signal provider configuration
-Von der zuvor erstellten Definition des Kalkulators können in SignalF mehrere Instanzen erzeugt werden. Dazu wird für jede benötigte Instanz eine eigene Konfiguration erstellt. Einmal definierte Kalkulatoren können so an verschiedenen Stellen des Systems mit unterschiedlichen Konfigurationen verwendet werden.
-Für unsere Temperaturkontrolle benötigen wir in unserem Fall jedoch nur eine Instanz und somit auch nur eine Konfiguration.
-
 Several instances of the previously created calculator definition can be created in SignalF. A separate configuration is used for each required instance. Once a calculator has been defined, it can be used at different points in the system with different configurations.
 In our case, however, we only need one instance and therefore only one configuration for our temperature control.
 
