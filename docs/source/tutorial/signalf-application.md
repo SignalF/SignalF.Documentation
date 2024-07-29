@@ -9,6 +9,10 @@ In this tutorial we will develop a simple temperature monitoring system with Sig
 
 You will learn how to integrate devices and data output components into SignalF. We will also create a simple logic to monitor the temperature. In the last step, we will connect the individual components using configuration.
 
+:::{note}
+You can find the complete [source code](https://github.com/SignalF/SignalF.Tutorials) for this tutorial on [GitHub](https://github.com/SignalF/SignalF.Tutorials).
+:::
+
 ## Create the project
 
 First create a new project for a .NET 8 console application.
